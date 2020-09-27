@@ -1,0 +1,55 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-container .swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-container .swiper-slide .abouts {
+  width: 50%;
+}
+
+.swiper-container .swiper-slide .abouts .about-title {
+  font-size: 36px;
+}
+
+.swiper-container .swiper-slide .abouts .about-text {
+  font-size: 24px;
+}
+/*# sourceMappingURL=TenDrum.css.map */

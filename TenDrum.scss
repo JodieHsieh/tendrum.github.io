@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+    .swiper-slide {
+        // background: rgb(179, 212, 185);
+
+        /* Center slide text vertically */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .abouts {
+            width: 50%;
+            .about-title {
+                font-size: 36px;
+                
+                
+            }.about-text {
+                    font-size: 24px;
+                }
+        }
+    }
+}
